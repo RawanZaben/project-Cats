@@ -1,0 +1,47 @@
+* {
+  font-family: "El Messiri", sans-serif;
+}
+.cat {
+  margin: 50px;
+  border-radius: 50px 30px;
+}
+#card {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 50px 30px;
+}
+.cat:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+img {
+  width: 200px;
+  height: 270px;
+  border-radius: 50px 30px;
+}
+#serch {
+  margin-top: 10;
+  text-align: center;
+}
+#input {
+  margin: 1px;
+  width: 400px;
+  height: 40px;
+}
+h4 {
+  color: #c38c6d;
+}
+h5 {
+  color: #dbc2be;
+}
+p {
+  color: #8c8784;
+}
+
+@media only screen and (max-width: 900px) {
+  #card {
+    grid-template-columns: 1fr;
+  }
+}

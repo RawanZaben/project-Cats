@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.divS{
+    padding: 20px;
+}
+.container {
+  margin: 20px;
+  background-color: #d9bdaf1c;
+  border-radius: 5px;
+  box-shadow: 2px 1px 5px 0px rgba(0, 0, 0, 0.73);
+  width: 200px;
+  height: 100%;
+}
+
+.form {
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-control {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #f0f0f0;
+}
+
+.form button {
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  width: 100%;
+  background: #8c8784;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form button:hover {
+  background: #c69d89;
+  text-decoration: none;
+}
